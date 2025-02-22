@@ -1,0 +1,170 @@
+/* * {
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+/* .red-hat-display-heading {
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+* {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+body {
+
+    background-image: url(FloralA.jpg);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+header {
+    color: ghostwhite;
+    border: 2px solid #4a5759;
+    /* background-color: #EDAFB8; */
+    /* background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f7e1d7' fill-opacity='0.47' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E"); */
+    background-color: #edafb8;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f7e1d7' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    margin: 4px;
+
+}
+
+main {
+    color: ghostwhite;
+    border: 2px solid #4a5759;
+    opacity: 0.8;
+    background-image: radial-gradient(#4a5759 0.5px, transparent 0.5px), radial-gradient(#4a5759 0.5px, #b0c4b1 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.Menu {
+    color: #4a5759;
+    /* background-color: ghostwhite; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    border: none;
+    border-radius: 25px;
+    margin: 4px;
+}
+
+.skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.contact-container {
+    box-sizing: border-box;
+    height: 100vh;
+    display: left;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2 {
+    font-weight: 400;
+    color: ghostwhite;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* .contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #4a5759;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} */
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #4a5759;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #edafb8;
+}
+
+.contact-inputs::placeholder {
+    color: #4a5759;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #121515;
+    gap: 10px;
+    border: solid #4a5759;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #85999c, #4a5759);
+    cursor: pointer;
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.intro {
+    max-width: 500px;
+    text-align: center;
+}
