@@ -30,8 +30,7 @@ body {
 
     background-image: url(FloralA.jpg);
     background-position: center;
-    background-size: 110%;
-    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
